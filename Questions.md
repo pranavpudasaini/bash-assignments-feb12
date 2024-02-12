@@ -9,11 +9,6 @@ Copy your `/etc/passwd` file to `/tmp` and write a script to display the followi
 - All usernames containing the letter `s`
 - All usernames starting from `r`
 
-### Example Output:
-
-#### INSERT SCREENSHOT HERE
-![image](~/lf/internship/bash/assignment1.sh)
-
 # 2. Naive Parser
 
 Given the following CSV file, write a Bash script to find if the total number of delimeters in the file is correct.
@@ -29,9 +24,10 @@ id|first_letter|last_full|age
 
 ## 3. Cron
 
-Write a cron job that runs every hour. It should
-    - Fetch the HTML response from `https://www.example.com`
-    - Log the output inside this directory `/var/log/bash_assignment/`
-    - Compress all previous logs as a ZIP archive
-    - Keep only 5 most-recent archives and delete all other archives
+Write a cron job that runs every hour. It should:
+
+- Fetch the HTML response from `https://www.example.com`
+- Log the output inside this directory `/var/log/bash_assignment/`
+- Compress all previous logs as a ZIP archive
+- Keep only 5 most-recent archives and delete all other archives
 
